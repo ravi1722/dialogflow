@@ -1,0 +1,29 @@
+.click{
+    color: #fff;
+    background-color: #f7a765;
+}
+
+@media screen and (max-width: 320px){
+    .mat-button, .mat-raised-button, .mat-icon-button, .mat-stroked-button, .mat-flat-button, .mat-fab, .mat-mini-fab {
+        font-size: 5px;
+        font-weight: 300;
+    }
+    .mat-raised-button {
+        min-width: 32px;
+        line-height: 15px;
+        padding: 0px;
+    }
+    .mat-datepicker-content .mat-calendar {
+        width: 197px;
+        height: 230px;
+    }
+    .mat-paginator, .mat-paginator-page-size .mat-select-trigger {
+        font-size: 5px;
+    }
+    mat-row, mat-footer-row, mat-header-row {
+        min-height: 35px;
+    }
+    .material-icons {
+        font-size: 10px !important;
+    }
+}

@@ -1,0 +1,25 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <h2>All Messages</h2>
+        </div>
+    </div>
+    <hr>
+    <div *ngFor ="let a of limitData">
+            <div class="incoming_msg">
+                <div class="received_msg">
+                    <div class="received_withd_msg">
+                        <p *ngIf="a.req0001">{{a.req0001}}</p>
+                        <span class="time_date">{{a.hrs | date:'medium'}}</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="outgoing_msg">
+                <div class="sent_msg">
+                    <p *ngIf="a.res0001">{{a.res0001}}</p>
+                    <span class="time_date">{{a.hrs |  date:'medium'}}</span>
+                </div>
+            </div>
+    </div>
+</div>

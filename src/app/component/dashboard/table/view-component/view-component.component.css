@@ -1,0 +1,71 @@
+h2{
+    text-align: center;
+    color: #000;
+}
+
+.incoming_msg_img {
+    display: inline-block;
+    width: 6%;
+}
+.received_msg {
+    display: inline-block;
+    padding: 0 0 0 10px;
+    vertical-align: top;
+    width: 92%;
+}
+.received_withd_msg {
+    width: 57%;
+}
+
+.received_withd_msg p {
+    background:#f7a765 none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 14px;
+    margin: 0;
+    padding: 5px 10px 5px 12px;
+    width: 20vw;
+}
+
+.outgoing_msg {
+    overflow: hidden;
+    margin: 26px 0 26px;
+}
+
+.sent_msg {
+    float: right;
+    width: 72%;
+}
+
+.sent_msg p {
+    background: #5b7e96 none repeat scroll 0 0;
+    border-radius: 3px;
+    font-size: 14px;
+    margin: 0;
+    color: #fff;
+    padding: 5px 10px 5px 12px;
+    width: 30vw;
+}
+
+
+.time_date {
+    color: #747474;
+    display: block;
+    font-size: 12px;
+    margin: 8px 0 0;
+}
+
+@media screen and (max-width: 320px){
+    .sent_msg{
+        width: 93%;
+    }
+    .sent_msg p{
+        width: 53vw;
+    }
+    .received_withd_msg{
+        width: 50vw;
+    }
+    .received_withd_msg{
+        width: 65%;
+    }
+}

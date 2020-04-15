@@ -1,0 +1,13 @@
+<mat-toolbar>
+    <mat-toolbar-row>
+        <img src="https://papaandbarkley.ch/wp-content/uploads/2019/12/pblogo_600x.png">
+        <span class="searching">
+        <mat-form-field>
+            <mat-label>Search Date</mat-label>
+            <input matInput [matDatepicker]="picker" (dateChange)="date($event)">
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>&nbsp;
+        <a routerLink="/login">Logout<mat-icon>arrow_back</mat-icon></a>
+    </span>
+    </mat-toolbar-row>

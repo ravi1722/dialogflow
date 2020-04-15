@@ -1,0 +1,38 @@
+mat-toolbar{
+    -webkit-box-shadow: 0 5px 11px -6px #777;
+	   -moz-box-shadow: 0 5px 11px -6px #777;
+            box-shadow: 0 5px 11px -6px #777;
+            
+            margin-bottom: 5vh;
+}
+
+img{
+    margin-top: 10px;
+    width: 200px;
+    height: 27px
+}
+
+.searching{
+    position : absolute;
+    right: 15px;
+    top: 0px;
+}
+
+@media screen and (max-width: 320px){
+    img{
+        width: 77px;
+        height: 10px;
+    }
+    mat-form-field{
+        font-size: 7px;
+        width: 60px;
+    }
+    a{
+        font-size: 10px;
+    }
+    .searching{
+        position: absolute;
+        right: 15px;
+        top: 9px;
+    }
+}
